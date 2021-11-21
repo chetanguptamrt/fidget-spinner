@@ -58,5 +58,6 @@ body {
     outline: 10px solid rgb(238, 105, 75);
     outline-radius: 25px;
     -moz-outline-radius: 25px;
+    -webkit-outline-radius: 25px;
     z-index: 4;
 }
