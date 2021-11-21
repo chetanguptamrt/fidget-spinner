@@ -46,18 +46,23 @@ body {
     height: 60px;
     background-color: rgb(190, 76, 45);
 }
-.p-end{
+.p-end {
     position: absolute;
-    top: 5px;
+    top: -5px;
     left: -40px;
-    width: 34px;
-    height: 34px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
-    background-color: rgb(190, 76, 45);
-    border: 8px solid #081923FF;
-    outline: 10px solid rgb(238, 105, 75);
-    outline-radius: 25px;
-    -moz-outline-radius: 25px;
-    -webkit-outline-radius: 25px;
+    background-color: #081923FF;
+    border: 12px solid rgb(238, 105, 75);
     z-index: 4;
+}
+.p-end-mid {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 26px;
+    height: 26px;
+    background-color: rgb(190, 76, 45);
+    border-radius: 50%;
 }
