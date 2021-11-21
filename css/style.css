@@ -56,7 +56,7 @@ body {
     background-color: rgb(190, 76, 45);
     border: 8px solid #081923FF;
     outline: 10px solid rgb(238, 105, 75);
-    
+    outline-radius: 25px;
     -moz-outline-radius: 25px;
     z-index: 4;
 }
